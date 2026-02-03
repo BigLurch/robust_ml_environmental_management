@@ -67,6 +67,13 @@ Detta bekräftar att:
 
 För att verifiera att miljön är korrekt installerad och fungerar som avsett används ett verifieringsscript: `check_env.py`.
 
+Den virtuella miljön (`.venv`) är inte inkluderad i repot.  
+Miljön återskapas lokalt genom:
+
+```bash
+uv sync
+```
+
 Scriptet är avsett att köras med:
 
 ```bash
