@@ -62,4 +62,13 @@ Detta bekräftar att:
 - PyTorch är korrekt installerat
 - ingen GPU/accelerator finns tillgänglig
 - miljön kör korrekt i CPU-läge
-# robust_ml_environmental_management
+
+### Verifieringsscript (`check_env.py`)
+
+För att verifiera att miljön är korrekt installerad och fungerar som avsett används ett verifieringsscript: `check_env.py`.
+
+Scriptet är avsett att köras med:
+
+```bash
+uv run check_env.py
+```
